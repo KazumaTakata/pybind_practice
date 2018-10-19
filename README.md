@@ -1,0 +1,1 @@
+eval c++ -O3 -Wall -shared -std=c++11 -I/Users/kazumatakata/Downloads/pybind11/include (python -m pybind11 --includes) -undefined dynamic_lookup sample.cpp -o example(python-config --extension-suffix)
